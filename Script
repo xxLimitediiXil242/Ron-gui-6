@@ -7449,7 +7449,7 @@ Teleportingtroops.MouseButton1Down:connect(function()
 	Japanintotaiwantanks.Position = UDim2.new(0.655934453, 0, 0.378472209, 0)
 	Japanintotaiwantanks.Size = UDim2.new(0, 180, 0, 50)
 	Japanintotaiwantanks.Font = Enum.Font.SourceSans
-	Japanintotaiwantanks.Text = "Japan into taiwan (tanks)"
+	Japanintotaiwantanks.Text = "Japan into taiwan (Broken for the time being)"
 	Japanintotaiwantanks.TextColor3 = Color3.fromRGB(0, 0, 0)
 	Japanintotaiwantanks.TextScaled = true
 	Japanintotaiwantanks.TextSize = 14.000
