@@ -34,7 +34,7 @@ main.BackgroundColor3 = Color3.fromRGB(0, 85, 0)
 main.BackgroundTransparency = 0.100
 main.Position = UDim2.new(0.20477277, 0, 0.121272363, 0)
 main.Size = UDim2.new(0, 740, 0, 342)
-main.Visible = true
+main.Visible = false
 main.Active = true
 main.Draggable = true
 
@@ -7665,7 +7665,7 @@ JapanintoBeijing.MouseButton1Down:connect(function()
 			[29] = workspace.Baseplate.Cities.Japan["KÅriyama"],
 			[30] = workspace.Baseplate.Cities.Japan.Toyama,
 			[31] = workspace.Baseplate.Cities.Japan.Miyazaki,
-			[32] = workspace.Baseplate.Cities.Japan.Akita,/
+			[32] = workspace.Baseplate.Cities.Japan.Akita,
 			[33] = workspace.Baseplate.Cities.Japan.Hakodate,
 			[34] = workspace.Baseplate.Cities.Japan.Aomori,
 			[35] = workspace.Baseplate.Cities.Japan.Morioka,
@@ -7696,7 +7696,7 @@ JapanintoBeijing.MouseButton1Down:connect(function()
 
 	workspace.GameManager.CreateUnit:FireServer(unpack(args))
 end)
-end)
+end
 
 
 OpenFrame.Name = "OpenFrame"
