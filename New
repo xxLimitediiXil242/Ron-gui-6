@@ -1,9 +1,1 @@
-local HWIDTable = loadstring(game:HttpGet("https://pastebin.com/raw/4GKn43ap"))()
-local HWID = game:GetService("RbxAnalyticsService"):GetClientId()
-print(HWIDTable)
-for i,v in pairs(HWIDTable) do
-    if v == HWID then
-        print("Access granted! You may load the script now...")
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/xxLimitediiXil242/Ron-gui-6/main/Real%20script"), true))()
-    end
-end
+ loadstring(game:HttpGet(("https://raw.githubusercontent.com/xxLimitediiXil242/Ron-gui-6/main/Real%20script"), true))()
