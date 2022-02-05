@@ -21,3 +21,19 @@ workspace.GameMain.ApplyDamage:FireServer(ohTable1)
         end
     end
 end)
+
+    game:GetService("RunService").RenderStepped:Connect(function()
+
+local ohString1 = "sound"
+local ohString2 = "Fire"
+
+game:GetService("ReplicatedStorage").Events.ReplicateService:InvokeServer(ohString1, ohString2)
+
+
+local ohString1 = "stain"
+local ohVector32 = Vector3.new(50,50,50)
+local ohVector34 = 1, 0, 0
+
+game:GetService("ReplicatedStorage").Events.ReplicateService:InvokeServer(ohString1, ohVector32, ohVector34)
+
+end)
